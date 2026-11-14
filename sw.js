@@ -3,7 +3,7 @@
    - 화면(HTML)은 항상 네트워크를 먼저 보고, 실패하면 캐시로 연다 (업데이트가 바로 반영되도록)
    - 아이콘·매니페스트 같은 고정 파일은 캐시 우선으로 빠르게 응답한다
    기록(localStorage)은 이 워커와 무관하며 서버로 전송되지 않는다. */
-var CACHE_NAME = 'todo-app-v1';
+var CACHE_NAME = 'todo-app-v2';
 var PRECACHE = [
   './',
   './index.html',
